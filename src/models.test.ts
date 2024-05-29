@@ -16,7 +16,7 @@ test.serial("Testeo el load del modelo", (t) => {
   // esto espera a que la promesa se resuelva y corre el test
 });
 
-test.serial("Testeo el addOne del modelo", (t) => {
+test.serial("Testeo el adOne del modelo", (t) => {
   const model = new ContactsCollection();
   const mockContact = {
     id: 30,
